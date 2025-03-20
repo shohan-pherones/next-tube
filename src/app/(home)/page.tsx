@@ -1,5 +1,5 @@
 const Home = () => {
-  return <div>I will load videos in the future!</div>;
+  return <div>Home</div>;
 };
 
 export default Home;
