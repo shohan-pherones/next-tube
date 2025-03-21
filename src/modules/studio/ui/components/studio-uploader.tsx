@@ -18,6 +18,7 @@ const StudioUploader = ({ endpoint, onSuccess }: StudioUploaderProps) => {
   return (
     <div>
       <MuxUploader
+        onSuccess={onSuccess}
         endpoint={endpoint}
         id={UPLOADER_ID}
         className="hidden group/uploader"
